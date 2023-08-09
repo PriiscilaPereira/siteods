@@ -1,0 +1,93 @@
+
+body {background-color:#ccc;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.cabeçalho {background-image: url(./imagem/imagendecapa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right center;    
+
+   
+}
+
+.cabeçalho__conteudo { margin: 50px auto 0;
+    width: 80%; 
+    text-align: center;
+    padding: 90px;
+    margin-top: 0;
+}
+.cabeçalho__conteudo h1 {font-size: 50px;
+color: whitesmoke;
+text-transform: uppercase;
+background-color:rgba(0,0,0, 0.5);
+display: inline block;
+padding: 16px;
+border-bottom: 2px solid;
+
+}
+.cabeçalho__conteudo p {font-size: 30px;   
+    color:white;
+    text-shadow: 3px 3px 3px black;
+
+}
+ol li {font-size: 18px;}
+
+p {font-size: 18px;}
+
+nav ul { margin: 20px 50px 0 0 ;
+
+}
+
+nav li {display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+
+}
+nav a {padding: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgba(0,0,0, 0.5);
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+nav a:hover {text-decoration: underline;
+    background-color: rgba(0,0,0, 0.7);
+
+}
+h2{ background-color: white;
+padding: 10px;
+
+}
+.conteudo-principal {display: flex;
+   
+
+}
+
+.midia1{display: flex;  
+justify-content: space-between;
+margin: 3%;
+} 
+
+
+.conteiner{
+    display: flex;  
+    gap: 30px    
+}
+.conteudo__2{
+    flex: 1;
+    margin: 16px;
+
+}
+
+
+
+
+.rodape{background-color:white;
+display: flex;
+flex: 1;
+
+}
